@@ -18,15 +18,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T   |   |  Y  |  U   |  I  |  O  |  P  |
-// |  A  |  S  |  D  |  F  |  G   |   |  H  |  J   |  K  |  L  |  ;  |
-// |  Z  |  X  |  C  |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  |
-//             | GUI | NAV | SHFT |   | SPC | SYM  | ALT |
+// | "/Q |  W  |  H  |  P  |   G       |      |  J      |  L   |  U    |  Y  |  ;  |
+// | @/A |  S  |  R  | '/T | UP/D      |      | DOWN/F  |  N   |  E    |  I  |  O  |
+// |  Z  |  X  |  C  |  V  |   B       |      |  K      |  M   |  ,    |  .  |  /  |
+//             |LYR 1|RET/TAB|DEL/SHFT |      | BKSP    | SPC  |SHFT/- |
                         bindings = <
-   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
-   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI
-   &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-          &kp LGUI &mo 1 &kp LSHFT &kp SPACE &mo 2 &kp RALT
+   &kp Q &kp W &kp H &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI
+   &kp A &kp S &kp R &kp T &kp D   &kp F &kp N  &kp E     &kp I   &kp O
+   &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH
+        &mo 1 &kp &kp RET &kp  LSHFT &kp BSPC &kp SPACE &mo 2 
                         >;
                 };
                 nav_layer {
