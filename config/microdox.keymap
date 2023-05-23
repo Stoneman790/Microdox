@@ -19,27 +19,27 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// | "/Q |  W  |  H  |  P  |   G       |        |  J      |  L   |  U    |  Y  |  ;  |
-// | @/A |  S  |  R  | '/T | UP/D      |        | DOWN/F  |  N   |  E    |  I  |  O  |
-// |  Z  |  X  |  C  |  V  |   B       |        |  K      |  M   |  ,    |  .  |  /  |
-//             |LYR 1|RET/TAB|DEL/SHFT |        | BKSP    | SPC  |SHFT/- |
+// | "/Q  |  W  |  H  |  P  |   G       |        |  J      |  L   |  U    |  Y  |  ;  |
+// | @/A  |  S  |  R  | '/T | UP/D      |        | DOWN/F  |  N   |  E    |  I  |  O  |
+// |Z/SHFT|  X  |  C  |  V  |   B       |        |  K      |  M   |  ,    |  .  |/ SHFT|
+//             |LYR 1|RET/TAB|DEL/MEH |         | BKSP    | SPC  |_/- |
                         bindings = <
    &mt DQT Q &kp W &kp H &kp P &kp G                &kp J &kp L  &kp U &kp Y &kp SEMI
    &mt AT A &kp S &kp R &mt SQT T &mt RIGHT D       &mt LEFT F &kp N  &kp E &kp I &kp O
-   &kp Z &kp X &kp C &kp V &kp B                &kp K &kp M  &kp COMMA &kp DOT &kp FSLH
-    &mo 1 &mt TAB RET &kp DEL                   &kp BKSP &kp SPACE &mt RSHFT MINUS
+   &mt LSHFT Z &kp X &kp C &kp V &kp B              &kp K &kp M  &kp COMMA &kp DOT &mt LSHFT FSLH
+    &mo 1 &mt TAB RET &kp DEL                       &kp BKSP &kp SPACE &mt UNDER MINUS
                         >;
                 };
                 nav_layer {
 // -----------------------------------------------------------------------------------------
 // |BTCLR|     | ESC |  ~   |     |                             | ESC |  l   |  2   | 3   |  4   |
 // | BT1 | GUI | ALT | CTRL | NUM |                             | +/- |  5   |  6   |  7  |  8   |
-// | BT2 |     |     |      |     |                             | * / |  9   |  0   | DOT | EQUAL|
+// | BT2 |     |     |RESET | BOOT|                             | * / |  9   |  0   | DOT | EQUAL|
 //             |     |      |     |                             |     |      |      |
                         bindings = <
     &bt BT_CLR   &trans      &kp ESC  &kp TILDE &trans           &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
    &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp TILDE &mo 3            &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
-   &bt BT_SEL 1 &trans      &trans   &trans    &trans           &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
+   &bt BT_SEL 1 &trans &trans &sys_reset &bootloader      &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
                             &trans   &trans    &trans           &trans   &trans   &trans
                         >;
                 };
