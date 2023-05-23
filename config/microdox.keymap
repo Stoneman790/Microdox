@@ -31,15 +31,15 @@
                 };
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// |BTCLR|     | ESC |  ~   |     |   | TAB | HOME |  UP  | END | DEL  |
-// | BT1 | GUI | ALT | CTRL | NUM |   |  /  | LEFT | DOWN | RGT | BKSP |
-// | BT2 |     |     |      |     |   |  \  | ENT  |      |     |      |
-//             |     |      |     |   |     |      |      |
+// |BTCLR|     | ESC |  ~   |     |                             | ESC |  l   |  2   | 3   |  4   |
+// | BT1 | GUI | ALT | CTRL | NUM |                             | +/- |  5   |  6   |  7  |  8   |
+// | BT2 |     |     |      |     |                             | * / |  9   |  0   | DOT | EQUAL|
+//             |     |      |     |                             |     |      |      |
                         bindings = <
-   &bt BT_CLR   &trans      &kp ESC  &kp TILDE &trans     &kp TAB  &kp HOME &kp UP   &kp END   &kp DEL
-   &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp LCTRL &mo 3      &kp FSLH &kp LEFT &kp DOWN &kp RIGHT &kp BSPC
-   &bt BT_SEL 1 &trans      &trans   &trans    &trans     &kp BSLH &kp RET  &trans   &trans    &trans
-                            &trans   &trans    &trans     &trans   &trans   &trans
+    &bt BT_CLR   &trans      &kp ESC  &kp TILDE &trans           &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
+   &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp TILDE &mo 3            &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
+   &bt BT_SEL 1 &trans      &trans   &trans    &trans           &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
+                            &trans   &trans    &trans           &trans   &trans   &trans
                         >;
                 };
 
