@@ -32,10 +32,10 @@
                 };
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// | ""  | || |  #  |  ()  |     |                                          | ESC |  l   |  2   | 3   |  4   |
-// |  @  | [] |  *  |  ~   |     |                                          | +/- |  5   |  6   |  7  |  8   |
-// |     |    | {}  |  <> |  ^  |                                           | * / |  9   |  0   | DOT | EQUAL|
-//             |     |      |     |                                         |LYR 2|      |      |
+// | ""  | || |  #  |  ()  |     |      | ESC |  l   |  2   | 3   |  4   |
+// |  @  | [] |  *  |  ~   |     |      | +/- |  5   |  6   |  7  |  8   |
+// |     |    | {}  |  <>  |  ^  |      | * / |  9   |  0   | DOT | EQUAL|
+//            |     |      |     |      |LYR 2|      |      |
                         bindings = <
    &kp DQT &kp PIPE         &kp HASH        &mt RPAR LPAR   &trans          &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
    &kp AT  &mt RBKT LBKT    &kp ASTRK       &kp TILDE       &trans          &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
