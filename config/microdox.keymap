@@ -27,34 +27,34 @@
    &mt DQT Q &kp W &kp H &kp P &mt PG_UP G          &mt UP J &kp L  &kp U &kp Y &kp SEMI
    &mt AT A &kp S &kp R &mt SQT T &mt RIGHT D       &mt LEFT F &kp N  &kp E &kp I &kp O
    &mt LSHFT Z &kp X &kp C &kp V &mt PG_DN B        &mt DOWN K &kp M  &kp COMMA &kp DOT &mt LSHFT FSLH
-    &mo 1 &mt TAB RET &mt RCMD DEL                  &kp BKSP &kp SPACE &mt UNDER MINUS
+            &mo 1 &mt TAB RET &mt RCMD DEL          &kp BKSP &kp SPACE &mt UNDER MINUS
                         >;
                 };
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// |BTCLR| BT#   | ESC |  ~   |     |                             | ESC |  l   |  2   | 3   |  4   |
-// | BT1 | GUI | ALT | CTRL | NUM |                             | +/- |  5   |  6   |  7  |  8   |
-// | BT2 |     |     |RESET | BOOT|                             | * / |  9   |  0   | DOT | EQUAL|
-//             |     |      |     |                             |     |      |      |
+// | ""  | || |  #  |  ()  |     |                             | ESC |  l   |  2   | 3   |  4   |
+// |  @  | [] |  *  |  ~   |     |                             | +/- |  5   |  6   |  7  |  8   |
+// |     |    | {}  |  <> |  ^  |                             | * / |  9   |  0   | DOT | EQUAL|
+//             |     |      |     |                             |LYR 2|      |      |
                         bindings = <
-   &bt BT_CLR   &bt BT_SEL 2  &kp ESC  &kp TILDE &trans         &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
-   &bt BT_SEL 0 &kp K_CMENU   &kp RALT &kp TILDE &mo 3            &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
-   &bt BT_SEL 1 &trans &trans &sys_reset &bootloader            &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
-                            &trans   &trans    &trans           &trans   &trans   &trans
+   &kp DQT &kp PIPE &kp HASH &mt RPAR LPAR &trans         &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
+   &kp AT 0 &mt RBKT LBKT &kp ASTRK &kp TILDE &trans      &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
+   &trans  &trans &mt RBRC LBRC &mt GT LT &kp CARET       &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
+                          &trans   &trans    &trans       &mo 2   &trans   &trans
                         >;
                 };
 
                 sym_layer {
 // -----------------------------------------------------------------------------------------
-// |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
+// |BTCLR| BT1 | BT2 | BT3 | BT4 |   |  ^  |  &  |  *  |  (  |  )  |
 // |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |
-// |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
+// |     |     |     |RESET| BOOT|   |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
-   &trans    &trans    &trans    &trans    &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE
-   &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans          &trans   &kp BSLH
-                       &kp LGUI  &trans    &kp SPACE   &kp RET   &trans    &kp RALT
+   &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SL 3     &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
+   &trans    &trans    &trans    &trans    &trans                          &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE
+   &trans    &trans    &trans    &sys_reset &bootloader                          &trans    &trans    &trans          &trans   &kp BSLH
+                       &kp LGUI  &trans    &kp SPACE                       &kp RET   &trans    &kp RALT
                         >;
                 };
 
