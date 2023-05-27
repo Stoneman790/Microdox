@@ -37,9 +37,9 @@
 // | BT2 |     |     |RESET | BOOT|                             | * / |  9   |  0   | DOT | EQUAL|
 //             |     |      |     |                             |     |      |      |
                         bindings = <
-    &bt BT_CLR  &bt BT_SEL 2bbkp ESC  &kp TILDE &trans           &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
+    &bt BT_CLR  &bt BT_SEL 2 bbkp ESC  &kp TILDE &trans         &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
    &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp TILDE &mo 3            &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
-   &bt BT_SEL 1 &trans &trans &sys_reset &bootloader      &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
+   &bt BT_SEL 1 &trans &trans &sys_reset &bootloader            &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
                             &trans   &trans    &trans           &trans   &trans   &trans
                         >;
                 };
