@@ -51,7 +51,7 @@
 // |     |     |     |RESET| BOOT|          |  _  |  +  |  [  |  ]  |  \  |
 //             | GUI |     | SPC |          | ENT |     | ALT |
                         bindings = <
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SL 3     &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
    &trans    &trans    &trans    &trans    &trans                    &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE
    &trans    &trans    &trans    &sys_reset &bootloader              &trans    &trans    &trans          &trans   &kp BSLH
                        &kp LGUI  &trans    &kp SPACE                 &kp RET   &trans    &kp RALT
