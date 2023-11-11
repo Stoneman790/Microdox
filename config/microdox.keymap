@@ -25,7 +25,7 @@
 //            |LYR 1|RET/TAB|DEL/COMMAND|         | BKSP    | SPC  |_/- |
                         bindings = <
    &mt DQT Q &kp W &kp H &kp P &mt PG_UP G          &mt UP J &kp L  &kp U &kp Y &kp SEMI
-   &mt AT A &kp S &kp R &mt SQT T &mt RIGHT D       &mt LEFT F &mt LCMD N  &kp E &kp I &kp O
+   &mt AT A &kp S &kp R &mt SQT T &mt RIGHT D       &mt LEFT F &kp N  &kp E &kp I &kp O
    &mt LSHFT Z &kp X &kp C &kp V &mt PG_DN B        &mt DOWN K &kp M  &kp COMMA &kp DOT &mt LSHFT FSLH
             &mo 1 &mt TAB RET &mt RCMD DEL          &kp BKSP &kp SPACE &mt UNDER MINUS
                         >;
