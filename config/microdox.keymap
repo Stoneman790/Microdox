@@ -38,7 +38,7 @@
 //            |     |      |     |          |     |      |LYR 2 |
                         bindings = <
    &kp DQT &kp PIPE       &kp HASH       &mt RPAR LPAR  &trans          &kp ESC  &kp N1 &kp N2   &kp N3   &kp N4
-   &kp AT  &mt RBKT LBKT  &kp ASTRK      &kp TILDE      &trans          &kp PLUS &k N5 &kp N6 &kp N7 &kp N8
+   &kp AT  &mt RBKT LBKT  &kp ASTRK      &kp TILDE      &trans          &kp PLUS &kp N5 &kp N6 &kp N7 &kp N8
    &trans  &trans         &mt RBRC LBRC  &mt GT LT      &kp CARET       &kp BSLH &kp N9  &kp N0   &trans    &kp EQUAL
            &trans         &trans         &trans                         &trans   &trans &mo 2   
                         >;
