@@ -38,10 +38,10 @@
             //            |LYR 1|RET/TAB|DEL/COMMAND|         | BKSP    | SPC  |_/- |
 
             bindings = <
-&mt DQT Q    &kp W  &kp H  &kp P        &mt PG_UP G     &mt UP J       &kp L       &kp U            &kp Y       &kp SEMI
-&kp A        &kp S  &kp R  &mt SQT T    &mt RIGHT D     &mt LEFT F     &mt RGUI N  &mt LCTRL E      &mt LALT I  &kp O
-&mt LSHFT Z  &kp X  &kp C  &kp V        &mt PG_DN B     &mt DOWN K     &kp M       &kp COMMA        &kp DOT     &mt LSHFT FSLH
-                    &mo 1  &mt TAB RET  &mt RCMD DEL    &kp BACKSPACE  &kp SPACE   &mt UNDER MINUS
+&mt DQT K    &kp L  &kp W    &kp P        &mt PG_UP SQT     &mt UP DQT       &kp R       &kp U            &kp Y       &kp G
+&kp A        &kp S  &kp T    &kp SQT H    &mt RIGHT COMMA   &mt LEFT DOT     &mt RGUI N  &mt LCTRL E      &mt LALT I  &kp O
+&mt LSHFT B  &kp X  &kp C    &kp V        &mt PG_DN MINUS   &mt DOWN QMARK   &kp M       &kp J            &kp D       &mt LSHFT F
+                    &mt 1 Z  &mt TAB RET  &mt RCMD DEL      &kp BACKSPACE    &kp SPACE   &kp Q
             >;
         };
 
