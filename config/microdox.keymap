@@ -41,7 +41,7 @@
 &kp K        &kp L  &kp W    &kp P        &mt PG_UP SQT     &mt UP DQT       &kp R       &kp U            &kp Y       &kp G
 &kp A        &kp S  &kp T    &kp H        &mt RIGHT COMMA   &mt LEFT DOT     &mt RGUI N  &mt LCTRL E      &mt LALT I  &kp O
 &mt LSHFT B  &kp X  &kp C    &kp V        &mt PG_DN MINUS   &mt DOWN QMARK   &kp M       &kp J            &kp D       &mt LSHFT F
-                    &mo 1 Z  &mt TAB RET  &mt RCMD DEL      &kp BACKSPACE    &kp SPACE   &kp Q
+                    &kp Z    &mt TAB RET  &mt RCMD DEL      &kp BACKSPACE    &kp SPACE   &kp Q
             >;
         };
 
